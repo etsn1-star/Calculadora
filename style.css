@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  width: 30vw;
+  height: 60vh;
+  background-color: aqua;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.visor {
+  display: flex;
+  z-index: 1;
+  width: 30vw;
+  height: 20vh;
+  background-color: black;
+}
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 5px;
+}
+.botao9 {
+  grid-column: 2;
+}
+
+.operadores {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}
+button {
+  background-color: whitesmoke;
+  transition: 1s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gray;
+}
