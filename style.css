@@ -3,16 +3,23 @@
   width: 30vw;
   height: 60vh;
   background-color: aqua;
+  flex-direction: column;
+}
+.intermediaria {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .visor {
   display: flex;
   z-index: 1;
   width: 30vw;
   height: 20vh;
   background-color: black;
+  flex-direction: row;
+}
+#visorText {
+  color: white;
 }
 .botoes {
   display: grid;

@@ -5,36 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Calculadora Moderna</title>
   </head>
   <body>
-    <div class="visor">
-      <h1>texto</h1>
-    </div>
     <div class="flex-container">
-      <div class="botoes">
-        <button>0</button>
-
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-
-        <button>7</button>
-        <button>8</button>
-        <button class="botao9">9</button>
+      <div class="visor">
+        <h1 id="visorText"></h1>
       </div>
+      <div class="intermediaria">
+        <div class="botoes">
+          <button id="0">0</button>
 
-      <div class="operadores">
-        <button>+</button>
-        <button>-</button>
-        <button>*</button>
-        <button>/</button>
-        <button>=</button>
-        <button>DEL</button>
+          <button id="1">1</button>
+          <button id="2">2</button>
+          <button id="3">3</button>
+
+          <button id="4">4</button>
+          <button id="5">5</button>
+          <button id="6">6</button>
+
+          <button id="7">7</button>
+          <button id="8">8</button>
+          <button id="9" class="botao9">9</button>
+        </div>
+
+        <div class="operadores">
+          <button>+</button>
+          <button>-</button>
+          <button>*</button>
+          <button>/</button>
+          <button>=</button>
+          <button>DEL</button>
+        </div>
       </div>
     </div>
   </body>
